@@ -6,32 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio texto-03</title>
     <style>
+        #importante{
+            font-size: 40px;
+        }
         del{
             color: blue;
-            font-size: 40px;
-            vertical-align: sub;
+            font-size: 2em;
+            vertical-align: -0.75em;
         }
         ins{
-            font-size: 16px;
             color: mediumseagreen;
+            vertical-align: super;
         }
-        span.uno{
-            font-size: 12px;
-        }
-        span.dos{
-            font-size: 38px;
-        }
-        span.tres{
-            font-size: 12px;
+        .uno{
+            font-size: 0.75em;
             vertical-align: text-top;
         }
-        span.cuatro{
-            vertical-align: sub;
+        
+        .dos{
+            font-size: 0.75em;
+            vertical-align: top;
+        }
+        .tres{
+            vertical-align: -0.5em;
         }
     </style>
 </head>
 <body>
-    <span class="dos"><p>Mi color favorito es el <del>azul</del> <ins>verde</ins>!</p></span>
-    <p><span class="uno">Hay que</span> tener en cuenta que <span class="tres">los navegadores</span> tachan <span class="cuatro">el texto</span> marcado con <del>del</del> (del) y subrayan el marcado con <ins>ins</ins>.</p>
+    <p id="importante">Mi color favorito es el <del>azul</del> <ins>verde</ins>!</p>
+    <p><span class="uno">Hay que</span> tener en cuenta que <span class="dos">los navegadores</span> tachan <span class="tres">el texto</span> marcado con <del>del</del> (del) y subrayan el marcado con <ins>ins</ins>.</p>
 </body>
 </html>
