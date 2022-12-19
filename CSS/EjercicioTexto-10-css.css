@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+body{
+    background-color: mediumspringgreen;
+}
+
+h1{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p.intro{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Caveat', cursive;
+    line-height: 200%;
+    text-align: justify;
+}
+
+p.latin{
+    margin: 0;
+    font-family: 'Carter One', cursive;
+    font-size: 2rem;
+}
+
+p.espanol{
+    margin: 0 0 3rem;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+cite{
+    text-decoration: underline;
+}
