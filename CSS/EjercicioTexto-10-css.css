@@ -10,8 +10,8 @@ body{
 
 h1{
     font-family: 'Rubik Vinyl', cursive;
-    font-size: 3rem;
-    letter-spacing: 1.5rem;
+    font-size: 3.5rem;
+    letter-spacing: 1.6rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -22,6 +22,7 @@ p.intro{
     font-family: 'Caveat', cursive;
     line-height: 200%;
     text-align: justify;
+    font-size: 1.35rem;
 }
 
 p.latin{
@@ -41,4 +42,11 @@ p.espanol{
 
 cite{
     text-decoration: underline;
+}
+
+address{
+    font-family: 'Caveat', cursive;
+    line-height: 200%;
+    text-align: justify;
+    font-size: 1.3rem;
 }
