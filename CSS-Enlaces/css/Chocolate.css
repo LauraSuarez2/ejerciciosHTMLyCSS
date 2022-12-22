@@ -1,0 +1,98 @@
+
+
+
+
+
+/* The W3C Core Styles Copyright (c) 1998 W3C (mit, inria, Keio), All Rights
+Reserved. W3C liability, trademark, document use and software licensing rules
+apply. See http://www.w3.org/Consortium/Legal/ipr-notice.html
+
+This stylesheet has been served in a form to avoid known bugs in your user
+agent's css implementation. Copying and serving this stylesheet to other
+agents may lead to unexpected results. Please refer to its address rather than
+copy it. */
+
+
+
+
+
+	/* begin body type */	/* 1 - humanist sans a */
+
+body	{	
+	font-size:	1em;
+	font-weight:	normal;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family:	Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.58;
+	}	
+
+h1	{	
+	font-family:	Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	2em;
+	font-weight:	400;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	margin-left: 4em;
+	}	
+		
+body	{	
+	background:	#1f63b1;
+	}	
+		
+h1 {	
+	color:	 #0becc7;
+	background:	 #1a52ec;
+	}	
+		
+
+		
+a:link	{	
+	text-decoration:	none;
+	font-weight:	bold;
+	color:	#FB8D0E;
+	background:	#1098e7;
+	margin-left: 10rem;
+	}	
+		
+a:visited	{	
+	text-decoration:	none;
+	font-weight:	bold;
+	color:	rgb(34, 214, 238);
+	background:	#1d6ee9e1;
+	}	
+		
+a:active	{	
+	text-decoration:	none;
+	font-weight:	bold;
+	color:	#ffc;
+	background:	#212121;
+	}	
+		
+a:hover	{	
+	text-decoration: underline;
+	color:	#4663f5;
+	background:	#F1B66F;
+	}	
+		
+	
+body	{	
+	line-height:	1.58em;
+	}	
+			
+		
+		
+h1	{	
+	margin-top:	1.33em;
+	margin-bottom:	.33em;
+	padding-top:	0;
+	padding-bottom:	0;
+	border-top:	0;
+	border-bottom:	0;
+	}	
+		
