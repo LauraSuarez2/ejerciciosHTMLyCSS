@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(190, 112, 10, 0.904);
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+address{
+    color: white;
+}
+
+a{
+    margin-left: 15px ;
+}

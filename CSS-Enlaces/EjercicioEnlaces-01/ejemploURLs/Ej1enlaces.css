@@ -26,9 +26,6 @@ body	{
 	font-size-adjust:	.58;
 	}	
 
-p, blockquote, ul, ol, dl, dd, li, dir, menu	{	
-	/* inherit from body */	
-	}	
 
 small	{	
 	font-size:	.92em;
