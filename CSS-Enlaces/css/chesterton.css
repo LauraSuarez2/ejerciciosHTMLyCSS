@@ -1,0 +1,43 @@
+body{
+    background-color: #795549;
+    font-family: sans-serif;
+    margin-left: 1.8%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+p.uno::first-letter{
+    font-size: 2em;
+}
+
+address{
+    color: white;
+}
+
+div{
+    text-align: center;
+}
+
+.button{
+    text-transform: uppercase;
+    background-color: #a8daeb;
+    border: 4px solid rgb(6, 124, 145);
+    border-radius: 6px;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 8px 12px;
+    cursor: pointer;
+}
+
+div.img{ 
+    text-align: center;
+}
