@@ -1,0 +1,32 @@
+body{
+    font-family: candara, sans-serif;
+    margin: auto;
+    width: 60%;
+    border: 1px solid red;
+    padding: 0 15px 0;
+}
+
+strong{
+    color: blue;
+    font-size: 1.2em;
+}
+
+p{
+    background-color: #DCDCDC;
+    color: green;
+}
+
+a{
+    color: blue;
+    font-weight: bold;
+}
+
+abbr{
+    color: #8CB0F1;
+}
+
+i{
+    font-style: normal;
+    font-weight: bold;
+    color: red;
+}

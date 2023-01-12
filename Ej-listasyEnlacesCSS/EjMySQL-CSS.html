@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial de MySQL</title>
+    <link rel="stylesheet" href="./estilosMySQL.css">
+</head>
+<body>
+    
+    <h1 id="ini">Tutorial de MySQL</h1>
+
+<dl>
+    <dt><a href="#uno">Introducción</a></dt>
+    <dt><a href="#dos">show databases</a></dt>
+    <dt><a href="#tres">Creación de una tabla y mostrar sus campos</a></dt>
+    <dt><a href="#cuatro">Carga de registros a una tabla y su recuperación</a></dt>
+</dl>
+
+    <h2 id="uno">Introducción</h2>
+
+<strong>SQL</strong>, Structure Query Language (Lenguaje de Consulta Estructurado) es un lenguaje de programacion para trabajar con base de datos relacionales como <em>MySQL, Oracle</em>, etc.
+
+<ul>
+    <li><strong>MySQL</strong> es un interpretador de <strong>SQL</strong>, es un servidor de base de datos.</li>
+    <li><strong>MySQL</strong> permite crear base de datos y tablas, insertar datos, modificarlos, eliminarlos, ordenarlos, hacer consultas y realizar muchas operaciones, etc., resumiendo: administrar bases de datos.</li>
+    <li>Ingresando instrucciones en la linea de comandos o embebidas en un lenguaje como <strong>PHP</strong> nos comunicamos con el servidor. Cada sentencia debe acabar con punto y coma (;).</li>
+    <li>La sensibilidad a mayúsculas y minúsculas, es decir, si hace diferencia entre ellas, depende del sistema operativo, <strong>Windows</strong> no es sensible, pero <strong>Linux</strong> si. Por ejemplo <strong>Windows</strong> interpreta igualmente las siguientes sentencias:</li>
+    <code>   
+        <li>create database administracion;</li>
+            <li>Create DataBase administracion;</li>
+    </code>
+    <li>Pero <strong>Linux</strong> interpretará como un error la segunda.</li>
+    <li>Se recomienda usar siempre minúsculas.</li>
+</ul>
+
+<a href="#ini">Volver al inicio</a>
+
+
+<h2 id="dos">show databases</h2>
+
+<ul>
+    <li>Una base de datos es un conjunto de tablas.</li>
+    <li>Una base de datos tiene un nombre con el cual accederemos a ella.</li>
+    <li>Vamos a trabajar en una base de datos ya creada en el sitio, llamada "administracion".</li>
+    <li>Para que el servidor nos muestre las bases de datos existentes, se lo solicitamos enviando la instrucción: show databases; Nos mostrará los nombres de las bases de datos</li>
+</ul>
+    
+<a href="#ini">Volver al inicio</a>
+
+
+<h2 id="tres">Creación de una tabla y mostrar sus campos</h2>
+
+<ul>    
+    <li>Una base de datos almacena sus datos en tablas.</li>
+    <li>Una tabla es una estructura de datos que organiza los datos en columnas y filas; cada columna es un campo (o atributo) y cada fila, un registro. La intersección de una columna con una fila, contiene un dato específico, un solo valor.</li>
+    <li>Cada registro contiene un dato por cada columna de la tabla.</li>
+    <li>Cada campo (columna) debe tener un nombre. El nombre del campo hace referencia a la información que almacenará.</li>
+    <li>Cada campo (columna) también debe definir el tipo de dato que almacenará.</li>
+</ul>
+
+<a href="#ini">Volver al inicio</a>
+
+
+<h2 id="cuatro">Carga de registros a una tabla y su recuperación</h2>
+
+<ul>    
+    <li>Usamos insert into. Especificamos los nombres de los campos entre paréntesis y separados por comas y luego los valores para cada campo, también entre paréntesis y separados por comas.</li>
+    <li>Es importante ingresar los valores en el mismo orden en que se nombran los campos, si ingresamos los datos en otro orden, no aparece un mensaje de error y los datos se guardan de modo incorrecto.</li>
+    <li>Note que los datos ingresados, como corresponden a campos de cadenas de caracteres se colocan entre comillas simples. Las comillas simples son OBLIGATORIAS.</li>
+</ul>
+
+<a href="#ini">Volver al inicio</a>
+
+</body>
+</html>

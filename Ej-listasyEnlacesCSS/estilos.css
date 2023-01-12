@@ -1,0 +1,41 @@
+body{
+    background-color: #fdfbf1;
+}
+
+h1{
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+}
+
+h2,h3{
+    background-color: burlywood;
+    color: white;
+}
+
+ul.a{
+    list-style-type: square;
+}
+
+ul.b{
+    list-style-type: circle;
+}
+
+ol.c{
+    list-style-type: lower-roman;
+}
+
+li::first-letter{
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+dl{
+    border-left: 5px solid burlywood;
+    background-color: #f0e7db;
+}
+
+dt{
+    font-variant: small-caps;
+    font-weight: bolder;
+}
