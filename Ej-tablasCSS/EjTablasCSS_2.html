@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio tablas CSS 2</title>
+
+    <style>
+        .azul{
+            border-collapse: separate;
+            border-spacing: 5px;
+            border: 1px solid blue;
+        }
+
+        .rojo{
+            border-collapse: separate;
+            border-spacing: 5px 30px;
+            border: 1px solid red;
+        }
+
+        td{
+            border: 1px solid black;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <table class="azul">
+        <tr>
+            <td>Estas celdas</td>
+            <td>tienen 5px de espacio horizontal</td>
+        </tr>
+        <tr>
+            <td>y</td>
+            <td>vertical tb. 5px</td>
+        </tr>
+    </table>
+
+    <p></p>
+    <br>
+
+    <table class="rojo">
+        <tr>
+            <td>Estas celdas</td>
+            <td>tienen 5px de espacio horizontal</td>
+        </tr>
+        <tr>
+            <td>y</td>
+            <td>30px en vertical</td>
+        </tr>
+    </table>
+
+</body>
+</html>

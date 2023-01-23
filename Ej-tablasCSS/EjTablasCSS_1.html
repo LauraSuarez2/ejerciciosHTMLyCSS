@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio tablas CSS 1</title>
+    <style>
+        .collapse{
+            border-collapse: collapse;
+            border: 2px solid red;
+        }
+
+        .separate{
+            border-collapse: separate;
+            border: 2px solid rgb(19, 161, 19);
+        }
+
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <table class="collapse">
+        <tr>
+            <th colspan="2">border-collapse: collapse</th>
+        </tr>
+        <tr>
+            <td>Borde de tabla rojo</td>
+            <td>Borde de cleda negro</td>
+        </tr>
+    </table>
+
+    <p></p>
+
+    <table class="separate">
+        <tr>
+            <th colspan="2">border-collapse: separate</th>
+        </tr>
+        <tr>
+            <td>Borde de tabla verde</td>
+            <td>Borde de cleda negro</td>
+        </tr>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio tablas CSS 3</title>
+
+    <style>
+        .show{
+            border-collapse: separate;
+            border: 1px solid black;
+        }
+
+        .hide{
+            border-collapse: separate;
+            border: 1px solid black;
+            empty-cells: hide;
+        }
+
+        table{
+            background-color: beige;
+            border-spacing: 10px;
+            width: 300px;
+        }
+
+        td{
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <table class="show">
+        <tr>
+            <td></td>
+            <td>Copas</td>
+        </tr>
+        <tr>
+            <td>Bastos</td>
+            <td>Espadas</td>
+        </tr>
+        <tr>
+            <td>Oros</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <p></p>
+
+    <table class="hide">
+        <tr>
+            <td></td>
+            <td>Copas</td>
+        </tr>
+        <tr>
+            <td>Bastos</td>
+            <td>Espadas</td>
+        </tr>
+        <tr>
+            <td>Oros</td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+</html>
