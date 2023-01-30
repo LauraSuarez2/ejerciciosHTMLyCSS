@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 
 body{
     margin: 2.2%;
@@ -29,12 +30,14 @@ tfoot{
 
 .enla{
     color: white;
+    font-weight: 200;
 }
 
 .enla:visited{
     color: #5a110a;
     background-color: #d81f0e;
     text-decoration: none;
+    font-weight: 200;
 }
 
 .enla:hover{
@@ -47,6 +50,11 @@ tfoot{
     padding: 8px 20px;
     border: 1.8px solid rgba(167, 0, 0, 0.918);
     background-color: rgb(255, 165, 165);
+}
+
+.ind{
+    font-family: 'DM Serif Text', serif;
+    font-weight: 200;
 }
 
 h1{
@@ -92,7 +100,7 @@ h1{
     margin: auto;
     border: 4px double #A70F01;
 }
-/*1% 5% 1% 0*/
+
 .imgTres{
     margin: 0.6% 1% 1% 16%;
     float: left;
@@ -105,7 +113,14 @@ h1{
     margin: 1% 5% 1% 30%;
     border: 4px double #A70F01;
 }
-/*1% 5% 1% 30%*/
+
+.cinco{
+    width: 20%;
+    height: 40%;
+    float: left;
+    margin: 1% 5% 1% 30%;
+    border: 4px double #A70F01;
+}
 
 hr{
     height: 2px;
@@ -113,10 +128,63 @@ hr{
     border: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ac0148;
+    font-size: 1.2em;
+}
+
+a:visited{
+    color: #500ca8;
+}
+
 table{
     margin: auto;
 }
 
+th{
+    background-color: #f085ae;
+}
+
+.max{
+    background-color: #f03630;
+}
+
+.maxmed{
+    background-color: rgb(247, 121, 18);
+}
+
+.med{
+    background-color: rgb(243, 174, 45);
+}
+
+.minmed{
+    background-color: rgb(53, 231, 222);
+}
+
+.min{
+    background-color: rgb(85, 176, 250);
+}
+
+.precip{
+    background-color: rgb(32, 83, 250);
+}
+
+.diasprecip{
+    background-color: rgb(37, 33, 250);
+}
+
+.sol{
+    background-color: rgb(238, 223, 91);
+}
+
+tfoot{
+    background-color: #ffaeae;
+}
 
 
- /* COLORES: #FCDEE0 #F37C84 #EA202C #950E17 #34090C MAS O MENOS  */
+ 
