@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 Formularios CSS</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h2{
+            color: brown;
+        }
+
+        form{
+            border: 2px solid brown;
+            width: 60%;
+            padding: 10px;
+        }
+
+        label{
+            display: block;
+        }
+
+        input[type=text]{
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid brown;
+        }
+
+        .etiqueta{
+            font-size: 1.3em;
+            color: brown;
+        }
+
+        input[type=submit], input[type=reset]{
+            background-color: brown;
+            color: white;
+            margin: 4px 2px;
+            padding: 8px 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Datos de cliente</h2>
+
+    <form action="#">
+        <label for="nombre" class="etiqueta">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="nif" class="etiqueta">NIF:</label>
+        <input type="text" id="nif"><br>
+        
+        <p class="etiqueta">Tipo de Habitación:</p> <br>
+        <input type="radio" id="ind" name="habitacion">
+        <label for="">Individual</label><br>
+        <input type="radio" id="dob" name="habitacion">
+        <label for="">Doble</label>
+        
+        <p class="etiqueta">Opciones:</p> <br>
+        <input type="checkbox" name="" id="desayhabit">
+        <label for="desayhabit">Desayuno en la habitación</label><br>
+        <input type="checkbox" name="" id="jacuzzi">
+        <label for="jacuzzi">Jacuzzi</label><br>
+        <input type="checkbox" name="" id="wifi">
+        <label for="wifi">Wi-Fi</label>
+        <br>
+        <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+
+    </form>
+</body>
+</html>

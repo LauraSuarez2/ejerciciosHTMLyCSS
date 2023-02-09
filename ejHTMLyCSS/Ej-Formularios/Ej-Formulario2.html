@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 Formularios</title>
+</head>
+<body>
+    
+    <h1>Cósmetica Profesional</h1>
+
+    <form action="tratar-datos.html" method="get">
+        <fieldset class="completa">
+            <legend>Formulario de pedido</legend>
+            <p><strong>Identificación</strong></p>
+            <fieldset>
+                <legend>Datos del ciente</legend>
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" size="20" maxlength="40">
+                <br>
+                <label for="pass">Contraseña</label>
+                <input type="password" id="pass" name="pass" size="10" maxlength="20">
+                <br>
+                <em>Longitud mínima 6 caracteres</em>
+                <br>
+                <label for="direccion">Dirección de envío</label>
+                <input type="text" id="direccion" name="direccion" size="40" maxlength="60">
+            </fieldset>
+            <fieldset>
+                <legend>Tipo de cliente</legend>
+                <input type="radio" id="particular" name="tipo">
+                <label for="particular">Particular</label>
+                <br>
+                <input type="radio" id="empresa" name="tipo">
+                <label for="empresa">Empresa</label>
+                <br>
+            </fieldset>
+            <p><strong>Datos del Pedido</strong></p>
+            <fieldset>
+                <legend>Datos del producto</legend>
+                Producto
+                <br>
+                <select name="producto" id="producto" multiple="si" size="5">
+                    <optgroup label="Solares">
+                        <option value="Sol-01" selected="selected">Sol-01 Solar Indice 8</option>
+                        <option value="Sol-02">Sol-02 Solar Indice 15</option>
+                        <option value="Sol-03">Sol-03 Solar Indice 50</option>
+                    </optgroup>
+                    <optgroup label="Labiales">
+                        <option value="Lab-01">Lab-01 Gloss Red</option>
+                        <option value="Lab-02">Lab-02 Gloss Brown</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Observaciones</legend>
+                <textarea name="observaciones" cols="50" rows="5" placeholder="Escriba aquí sus observaciones"></textarea>
+                <br>
+                <input type="checkbox" id="publi" value="si" checked="checked">
+                <label for="publi">Deseo recibir información sobre ofertas y novedades</label>
+            </fieldset>
+            <fieldset>
+                <legend>Datos bancarios</legend>
+                <label for="tarjeta">Número de trjeta</label>
+                <input type="text" id="tarjeta" name="tarjeta" size="20" maxlength="20">
+                <label for="caducidad">Fecha de caducidad</label>
+                <input type="text" id="caducidad" name="caducidad" size="5" maxlength="5">
+            </fieldset>
+            <br>
+            <input type="submit" value="Aceptar">
+
+            <input type="reset" value="Borrar">
+            
+        </fieldset>
+    </form>
+
+</body>
+</html>
