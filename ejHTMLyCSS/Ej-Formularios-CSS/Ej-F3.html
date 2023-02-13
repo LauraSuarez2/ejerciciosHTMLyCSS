@@ -6,12 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3 Formularios CSS</title>
     <style>
+        body{
+            background-color: #E4FFFF;
+            font-family: sans-serif;
+        }
+
+        h1{
+            text-align: right;
+            letter-spacing: 10px;
+        }
+
+        span.subrayado{
+            border-bottom: blue 6px dashed;
+        }
+
+        span.pregunta{
+            text-decoration: underline;
+        }
+
+        form{
+            margin: 10px 30px;
+        }
+
+        fieldset{
+            padding: 20px;
+            border: blue 3px dashed;
+        }
+
+        legend{
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            padding: 5px 20px;
+            letter-spacing: 5px;
+            font-size: 120%;
+        }
+
+        td{
+            padding: 5px 10px;
+        }
+
+        td.der{
+            text-align: right;
+        }
         
     </style>
 </head>
 <body>
        
-    <h1>Encuesta televisiva</h1>
+    <h1><span class="subrayado">Encuesta televisiva</span></h1>
 
     <form action="tratar-datos.html" method="get">
         <fieldset>
@@ -46,6 +89,11 @@
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="3">
+                        <span class="pregunta">Lugares en los que hay televisión en casa:</span>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <input type="checkbox" name="comedor" value="comedor">Comedor
                     </td>
@@ -68,9 +116,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td colspan="3" class="der">
                         <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar">
+                        <input type="reset" value="Borrar" name="Reset">
                     </td>
                 </tr>
             </table>
