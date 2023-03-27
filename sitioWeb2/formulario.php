@@ -62,11 +62,11 @@ if ($correo == "") {
     $correoOk = true;
 }
 
-if ($edad == "...") {
+if ($edad == "") {
     print "  <p><strong>No ha indicado su edad.</strong></p>\n";
     print "\n";
 } elseif ($edad < 0 || $edad >= 150) {
-    print "  <p><strong>Por favor, indique su edad válida (>= a 0 años).</strong></p>\n";
+    print "  <p><strong>Por favor, indique su edad válida (>= a 0 años y < 150).</strong></p>\n";
     print "\n";
 } else {
     $edadOk = true;
