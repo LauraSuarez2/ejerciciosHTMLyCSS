@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+body{
+    margin: 2.8%;
+    background-color: #FCDEE0; 
+    width: 94.4%;
+}
+/*
+header{
+    
+}*/
+
+footer{
+    clear: both;
+}
+
+aside{
+    background-color: #fdb3b3;
+    margin: 80px 8px 80px 12px;
+    float: right;
+    width: 18%;
+    padding: 8px;
+    
+}
+
+form{
+    width: 100%;
+}
+
+fieldset{
+    border: #A70F01 2px solid;
+    color: #640a02;
+    margin: 6px;
+    width: 80%;
+    margin: auto;
+}
+
+input[type=text]{
+    width: 80%;
+}
+
+input[type=number]{
+    width: 40%;
+}
+
+input[type=email]{
+    width: 80%;
+}
+
+textarea{
+    resize: none;
+    width: 90%;
+    margin: 2px;
+}
+
+legend{
+    background-color: #FF0000;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    footer{
+        color: #0000cd;
+        font-weight: bold;
+    }
+    aside{
+    width: 68%;
+    float: right;
+    margin-top: 0;
+    }
+    
+    .letras{
+        color: black;
+        background-color: #EA202C;
+        width: 60%;
+        border-radius: 6px;
+    }
+}
+
+td{
+    text-align: center;
+}
+
+tfoot{
+    font-style: italic;
+}
+
+.enlacep{
+    text-align: center;
+    background-color: #d81f0e;
+    margin: 1.5% 44%;
+    padding: 4px;
+    border: 2.6px solid #950E17;
+    border-radius: 8px;
+}
+
+.enlacep:hover{
+    background-color: #d81f0e;
+}
+
+.enla{
+    color: white;
+    font-weight: 200;
+}
+
+.enla:visited{
+    color: #5a110a;
+    background-color: #d81f0e;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.enla:hover{
+    background-color: #d81f0e;
+    color: #ffaeae;
+}
+
+nav{
+    border: 1.8px solid rgba(167, 0, 0, 0.918);
+    background-color: rgb(255, 165, 165);
+    float:left;
+    width:12%;
+    padding: 8px 20px;
+    margin: 8px;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+}
+
+.uni{
+    border: 1.8px solid rgba(167, 0, 0, 0.918);
+    background-color: rgb(255, 165, 165);
+    float:left;
+    width:16%;
+    padding: 8px 20px;
+    margin: 36px 20px 20px 5px;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+}
+
+.main{
+    float: right;
+    width: 62%;
+}
+
+main{
+    float: right;
+    width: 76%;
+}
+
+nav ol{
+    font-family: 'DM Serif Text', serif;
+    font-weight: 200;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    background-color: red;
+    color: white;
+    margin: 1% 28% 1% 28%;
+    border: 3.2px solid #A70F01;
+    border-radius: 10px;
+}
+
+.letra::first-letter{
+    font-size: 1.6em;
+}
+
+.imgUno{
+    margin: 0.6% 1% 1% 1%;
+    float: right;
+}
+
+
+.uno{
+    width: 40%;
+    height: 5%;
+    float: left;
+    margin: 0 6% 1% 6%;
+    border: 6px double #A70F01;
+}
+
+.dos{
+    width: 34%;
+    height: 5%;
+    float: left;
+    margin: 1% 5% 1% 0;
+    border: 6px double #A70F01;
+}
+
+.imgDos{
+    margin: 0.6% 1% 1% 6%;
+    float: right;
+}
+
+.tres{
+    width: 38%;
+    height: 5.5%;
+    float: left;
+    margin: 1% 5.6% 1% 6.6%;
+    border: 6px double #A70F01;
+}
+
+.once{
+    width: 36%;
+    height: 5%;
+    float: left;
+    margin: 2% 5.5% 1% 1%;
+    border: 6px double #A70F01;
+}
+
+.imgTres{
+    margin: 0.6% 1% 1% 16%;
+    float: left;
+}
+
+.cuatro{
+    width: 20%;
+    height: 60%;
+    float: left;
+    margin: 1% 5% 1% 30%;
+    border: 6px double #A70F01;
+}
+
+.imgCinco{
+    margin: 1.2% 20% 2% 23%;
+    float: left;
+}
+
+.siete{
+    width: 30%;
+    height: 60%;
+    float: left;
+    margin: 1% 5% 1% 30%;
+    border: 6px double #A70F01;
+}
+
+.imgCuatro{
+    margin: 1.2% 22% 2% 32%;
+    float: left;
+}
+
+.cinco{
+    width: 66%;
+    height: 34%;
+    float: left;
+    margin: auto;
+    border: 6px double #A70F01;
+}
+
+.imgSeis{
+    margin: 0.2% 8% 0.4% 6%;
+    float: left;
+}
+
+.seis{
+    width: 40%;
+    height: 28%;
+    margin: 0.2% 6% 3% 6%;
+    border: 6px double #A70F01;
+}
+
+.diez{
+    width: 24%;
+    height: 38%;
+    margin: 1% 5% 2% 6%;
+    border: 6px double #A70F01;
+}
+
+.imgSiete{
+    margin: 0.6% 1% 1% 16%;
+    float: left;
+}
+
+.ocho{
+    width: 20%;
+    height: 50%;
+    float: left;
+    margin: 1% 5% 1% 30%;
+    border: 6px double #A70F01;
+}
+
+.imgOcho{
+    margin: 0.6% 1% 1% 16%;
+    float: left;
+}
+
+.nueve{
+    width: 20%;
+    height: 50%;
+    float: left;
+    margin: 1% 5% 1% 30%;
+    border: 6px double #A70F01;
+}
+
+.imgNueve{
+    margin: 0.2% 1% 1% 17%;
+    float: left;
+}
+
+.doce{
+    width: 48%;
+    height: 50%;
+    margin: 1% 5% 1% 16%;
+    border: 6px double #A70F01;
+}
+
+hr{
+    height: 2px;
+    background-color: #950E17;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ac0148;
+    font-size: 1.15em;
+}
+
+a:visited{
+    color: #500ca8;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    background-color: #f085ae;
+}
+
+.max{
+    background-color: #f03630;
+}
+
+.maxmed{
+    background-color: rgb(247, 121, 18);
+}
+
+.med{
+    background-color: rgb(243, 174, 45);
+}
+
+.minmed{
+    background-color: rgb(53, 231, 222);
+}
+
+.min{
+    background-color: rgb(85, 176, 250);
+}
+
+.precip{
+    background-color: rgb(32, 83, 250);
+}
+
+.diasprecip{
+    background-color: rgb(37, 33, 250);
+}
+
+.sol{
+    background-color: rgb(238, 223, 91);
+}
+
+tfoot{
+    background-color: #ffaeae;
+}
+
+
+ 
